@@ -1,0 +1,28 @@
+BLUESTOCK MUTUAL FUND ANALYTICS
+
+DAY 1 - DATA INGESTION REPORT
+
+Datasets Loaded: 10
+
+Checks Performed:
+- Dataset Loading
+- Shape Analysis
+- Data Type Validation
+- Missing Value Check
+- Duplicate Check
+- Fund Master Exploration
+- AMFI Code Validation
+
+Findings:
+- All datasets loaded successfully.
+- Fund categories identified successfully.
+- Risk categories identified successfully.
+- All AMFI codes exist in NAV history.
+- NAV API data fetched successfully.
+
+Conclusion:
+Data is ready for cleaning, transformation,
+database creation and exploratory analysis.
+
+Prepared By:
+Anurag Singh
