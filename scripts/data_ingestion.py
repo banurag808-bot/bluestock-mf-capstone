@@ -57,22 +57,16 @@ print(fund_master["risk_category"].unique())
 
 nav_history = pd.read_csv("../data/raw/02_nav_history.csv")
 
-master_codes = fund_master["amfi_code"]
-nav_codes = nav_history["amfi_code"]
+master_codes = pd.DataFrame(fund_master["amfi_code"])
+nav_codes = pd.DataFrame(nav_history["amfi_code"])
 
-missing_codes = []
+validation = master_codes.merge(nav_codes,on = "amfi_code",how = "left",indicator = True)
 
-for code in master_codes:
 
-    if code not in nav_codes.values:
-        missing_codes.append(code)
-
-print("\n" + "="*50)
-print("AMFI VALIDATION")
-print("="*50)
+missing_codes = validation[
+    validation["_merge"] == "left_only"]
 
 if len(missing_codes) == 0:
-    print("All AMFI Codes Exist In NAV History")
+    print("All AMFI Codes Exist")
 else:
-    print("Missing Codes:")
     print(missing_codes)
