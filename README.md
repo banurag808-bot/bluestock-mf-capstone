@@ -175,3 +175,5 @@ Data Analytics Capstone Project
 
 GitHub: *(https://github.com/banurag808-bot)*
 
+Live Dashboard: https://app.powerbi.com/view?r=eyJrIjoiOTZjYWFmOWMtMjFhYy00YmIxLWEzYzItZjJhZDUzNjcyYzIyIiwidCI6IjcxZTUzYzkyLTExNDktNGFkNy1iNTRkLTIxMzcxNjcxMTFjYyJ9
+
