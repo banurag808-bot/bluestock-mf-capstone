@@ -1,9 +1,12 @@
 pandas
 numpy
 matplotlib
-seaborn
-plotly
-sqlalchemy
-requests
 scipy
+sqlalchemy
+psycopg2-binary
 jupyter
+notebook
+openpyxl
+plotly
+seaborn
+requests

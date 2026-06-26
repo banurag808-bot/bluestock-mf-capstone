@@ -1,4 +1,58 @@
-__pycache__/
+# Python
+
+**pycache**/
 *.pyc
-*.db
+*.pyo
+*.pyd
+
+# Jupyter
+
 .ipynb_checkpoints/
+
+# Virtual Environment
+
+venv/
+env/
+.venv/
+
+# VS Code
+
+.vscode/
+
+# OS Files
+
+.DS_Store
+Thumbs.db
+
+# Logs
+
+*.log
+
+# Environment Variables
+
+.env
+
+# Python Cache
+
+.pytest_cache/
+
+# Build Files
+
+build/
+dist/
+
+# Temporary Files
+
+*.tmp
+
+# Power BI Auto Backup
+
+*.pbix.autosave
+
+# SQLite Database
+
+*.db
+
+# Large Files (optional)
+
+*.zip
